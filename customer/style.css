@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#box1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(marble.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b2.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b3.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box4 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b4.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box5 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b5.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box6 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b6.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+
+
+
+
+    
+#studioimg{
+    height: 100px;
+    width: 200px;
+
+}
+
+
+
+#navigation{
+    width: 200px;
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+    background-color: ; 
+    float: left;
+}
+
+
+
+
+
+.nav-link{
+    background-color: ;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.nav-link a{
+    color: #818180; 
+    text-decoration: none;
+    font-family: "avenir"; 
+    font-size: 30px;
+}
+
+#content {
+    width: 50%;
+    margin: 0px auto 0px auto;
+    padding: 100px 25px 100px 25px;
+    float: top; 
+}
+
+p {
+    font-family: "avenir";
+    font-size: 20px;     
+}
+
+#navigation.top{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    display: table; 
+}
+
+#navigation.top #logo{
+    float: left;
+    margin: 0px 0px 0px 50px;
+}
+
+#navigation.top #logo h1{
+    padding: 10px 10px 10px 10px;
+}
+
+#navigation.top .nav-link{
+    float: left;
+    margin: 10px 70px 0px 10px;
+    padding: 15px 0px 0px 180px;
+}
+
+.image {
+    margin-left: 35vw; 
+}
+
+.t1{
+    font-family: "Didot";
+    font-size: 120px;
+    position: absolute;
+    margin-top: -90vh;
+    margin-left: 3vw;
+    color: #8A7B6B;
+    font-weight: bold;
+}
+
+.about1{
+    font-family: "Avenir";
+    font-size: 70px;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 18vw;
+    color: #818180;
+    font-weight: bold;
+}
+
+.about2{
+    font-family: "Didot";
+    font-size: 25px;
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 2vw;
+    color: #8A7B6B;
+    
+}
+
+.p1{
+    margin-top: 0vh;
+    margin-left: 20vw;
+}
+    
+
+.bx{
+    height: 30vh;
+    width: 100vw;
+    background-image:url(marble.jpg);
+    
+}
+
+.circle{
+    height: 100vh;
+    width: 100vh;
+    border-radius: 100%;
+    background-image:url(marble.jpg);
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

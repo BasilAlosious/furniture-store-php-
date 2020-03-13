@@ -1,0 +1,413 @@
+
+
+#box1 {
+    height: 200vh;
+    width: 100%;
+    background-image: url(marble.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#wel{
+     position: fixed;
+    margin-left: 50vw;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #A9A9A9 ;   
+  }
+#navbar {
+     position: absolute;
+     margin-top: 0px;
+}
+#box2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b2.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b3.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box4 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b4.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box5 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b5.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box6 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(b6.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+
+#logout{
+    position: absolute;
+    margin-left: 64vw;
+    margin-top: -65px;
+  }
+#sidebar {
+width:250px;
+background:#A9A9A9;
+position: absolute;
+    margin-left: 0vw;
+    margin-top: -40px;
+}
+
+#sidebar_title {
+background:white;
+color:#A9A9A9;
+font-size:22px;
+font-family: Optima; 
+padding:10px;
+text-align:center;
+}
+
+#cats {
+    text-align:center;
+}
+
+#cats li {list-style:none; margin:5px;}
+
+#cats a {color:white; padding:8px; margin:5px; text-align:center; font-size:20px; text-decoration:none; font-family:Optima;}
+
+#cats a:hover {color:#2F4F4F; font-weight:bolder; text-decoration:underline;}
+
+
+
+    
+#studioimg{
+    height: 100px;
+    width: 200px;
+
+}
+
+
+
+#navigation{
+    width: 200px;
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+    background-color: ; 
+    float: left;
+}
+
+    
+
+
+.txt-heading {
+  color: #211a1a;
+  border-bottom: 1px solid #E0E0E0;
+  overflow: auto;
+}
+
+#product-grid {
+  margin: 40px;
+  position: absolute;
+    margin-left:250px;
+    margin-top:-40px;
+    margin-bottom:20px; 
+}
+
+#product-grid .txt-heading {
+  margin-bottom: 18px;
+}
+
+
+.product-item {
+  float: left;
+  margin: 30px 30px 0px 0px;
+  border: #E0E0E0 1px solid;
+}
+
+.product-image {
+  height: 155px;
+  width: 245px;
+}
+.container {
+  position: relative;
+  width: 103%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 107%;
+  height: 100%;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0.4;
+  background-color: #A9A9A9;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color:#A9A9A9;
+  opacity: 0.9;
+}
+.cart-action {
+  float: right;
+}
+.product-title {
+  margin-bottom: 20px;
+  color:#2F4F4F;
+
+}
+
+.product-price {
+  float:left;
+  color:#2F4F4F;
+}
+
+.cart-action {
+  float: right;
+}
+
+.product-quantity {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: #E0E0E0 1px solid;
+}
+
+.product-tile-footer {
+    padding: 15px 15px 0px 15px;
+    overflow: auto;
+}
+
+
+
+.btnAddAction {
+    padding: 5px 10px;
+    margin-left: 5px;
+    float: right;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+ #shopping-cart {
+  margin: 40px;
+
+}
+
+
+#shopping-cart table {
+  width: 100%;
+  background-color:#A9A9A9;
+}
+
+#shopping-cart table td {
+  background-color:#FFFFFF;
+
+}
+
+#btnEmpty {
+  border: 1px solid;
+  padding: 5px 10px;
+  float: right;
+  border-radius: 3px;
+  margin: 10px 0px;
+}
+
+#checkout{
+ border: 1px solid;
+  padding: 5px 10px;
+  float: left;
+  border-radius: 3px;
+  margin: 5px 0px;   
+}
+
+.cart-item-image {
+  width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: #E0E0E0 1px solid;
+    padding: 5px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.txt-heading {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  color:#696969;
+  border-bottom: 1px solid #E0E0E0;
+  overflow: auto;
+}
+.tbl-cart {
+  font-size: 0.9em;
+}
+
+.tbl-cart th {
+  font-weight: normal;
+}
+.no-records {
+  text-align: center;
+  clear: both;
+  margin: 38px 0px;
+}
+
+.nav-link{
+    background-color: ;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.nav-link a{
+    color: #818180; 
+    text-decoration: none;
+    font-family: "avenir"; 
+    font-size: 30px;
+}
+
+#content {
+    width: 50%;
+    margin: 0px auto 0px auto;
+    padding: 100px 25px 100px 25px;
+    float: top; 
+}
+
+p {
+    font-family: "avenir";
+    font-size: 20px;     
+}
+
+#navigation.top{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    display: table; 
+}
+
+#navigation.top #logo{
+    float: left;
+    margin: 0px 0px 0px 50px;
+}
+
+#navigation.top #logo h1{
+    padding: 10px 10px 10px 10px;
+}
+
+#navigation.top .nav-link{
+    float: left;
+    margin: 10px 70px 0px 10px;
+    padding: 15px 0px 0px 180px;
+}
+
+.image {
+    margin-left: 35vw; 
+    margin-right: 
+}
+
+.t1{
+    font-family: "Didot";
+    font-size: 120px;
+    position: absolute;
+    margin-top: -90vh;
+    margin-left: 3vw;
+    color: #8A7B6B;
+    font-weight: bold;
+}
+
+.about1{
+    font-family: "Avenir";
+    font-size: 70px;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 18vw;
+    color: #818180;
+    font-weight: bold;
+}
+
+.about2{
+    font-family: "Didot";
+    font-size: 25px;
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 2vw;
+    color: #8A7B6B;
+    
+}
+
+.p1{
+    margin-top: 0vh;
+    margin-left: 20vw;
+}
+    
+
+.bx{
+    height: 30vh;
+    width: 100vw;
+    background-image:url(marble.jpg);
+    
+}
+
+.circle{
+    height: 100vh;
+    width: 100vh;
+    border-radius: 100%;
+    background-image:url(marble.jpg);
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
